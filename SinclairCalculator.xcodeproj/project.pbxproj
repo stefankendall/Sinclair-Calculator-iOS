@@ -26,6 +26,7 @@
 		301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		545903F4BB47D17DF57F0890 /* NumberHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590703EE80076D225D3A33 /* NumberHelpers.m */; };
 		5459061759B4CB8FF05E5978 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590FFD4F6B15F4E6460782 /* MainViewController.m */; };
 		5459068C107DB274A5A475B6 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 545906889C80E1DA840CCCEB /* Calculator.m */; };
 		54590918658FAE84DCFD4AF9 /* Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590EFCF72670BD191741BB /* Conversion.m */; };
@@ -88,6 +89,8 @@
 		32CA4F630368D1EE00C91783 /* SinclairCalculator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SinclairCalculator-Prefix.pch"; sourceTree = "<group>"; };
 		5459009BABEACD424C6C6DE2 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		545906889C80E1DA840CCCEB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		54590703EE80076D225D3A33 /* NumberHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHelpers.m; sourceTree = "<group>"; };
+		545909C733CF8B709C113F89 /* NumberHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberHelpers.h; sourceTree = "<group>"; };
 		54590A9D54B6B403C8FB1ACB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		54590E57409156D6286DBD21 /* Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversion.h; sourceTree = "<group>"; };
 		54590EFCF72670BD191741BB /* Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversion.m; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				54590FFD4F6B15F4E6460782 /* MainViewController.m */,
 				54590A9D54B6B403C8FB1ACB /* MainViewController.h */,
 				5459036C4A8DB1606121E2B7 /* algorithms */,
+				54590703EE80076D225D3A33 /* NumberHelpers.m */,
+				545909C733CF8B709C113F89 /* NumberHelpers.h */,
 			);
 			name = Classes;
 			path = SinclairCalculator/Classes;
@@ -346,6 +351,7 @@
 				5459061759B4CB8FF05E5978 /* MainViewController.m in Sources */,
 				5459068C107DB274A5A475B6 /* Calculator.m in Sources */,
 				54590918658FAE84DCFD4AF9 /* Conversion.m in Sources */,
+				545903F4BB47D17DF57F0890 /* NumberHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

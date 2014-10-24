@@ -1,4 +1,4 @@
-@interface MainViewController : UIViewController {}
+@interface MainViewController : UIViewController <UITextFieldDelegate> {}
 @property (strong, nonatomic) IBOutlet UILabel *sinclairValue;
 @property (strong, nonatomic) IBOutlet UITextField *liftTotal;
 @property (strong, nonatomic) IBOutlet UITextField *bodyweight;
