@@ -1,0 +1,2 @@
+@interface Calculator : NSObject
+@end
