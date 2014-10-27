@@ -58,6 +58,7 @@
     NSNumberFormatter *nf = [[NSNumberFormatter alloc] init];
     [nf setMinimumFractionDigits:3];
     [nf setMaximumFractionDigits:3];
+    [nf setMinimumIntegerDigits:1];
     [self.sinclairValue setText:[nf stringFromNumber:sinclair]];
 }
 
