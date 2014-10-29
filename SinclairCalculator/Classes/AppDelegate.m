@@ -5,7 +5,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 #if (!TARGET_IPHONE_SIMULATOR)
-    [Crashlytics startWithAPIKey:@""];
 #endif
     
     return YES;
